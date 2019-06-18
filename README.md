@@ -79,15 +79,16 @@ Exemple de programme
 ```
 module Main exposing (hello)
 
-hello : String
-hello =
+helloWorld : String
+helloWorld =
     "Hello world!"
 
-sayHello : String -> String
-sayHello name =
+helloName : String -> String
+helloName name =
     "Hello " ++ name ++ "!"
 ```
-- la fonction `hello` ne prend pas de paramètre et renvoie une valeur de type `String`
+- la fonction `helloWorld` ne prend pas de paramètre et renvoie une valeur de type `String`
+- la fonction `helloName` prend un paramètre `name` de type `String` et renvoie une valeur de type `String`
 
 ## Divers
 
