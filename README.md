@@ -1,28 +1,27 @@
 ## terminal
 
-`ls` -  liste les fichiers du dossier courant
-`ls -a`- liste les fichiers du dossier courant en affichant les fichiers cachés
-`cd [directory]` - naviguer vers le dossier
-`..` - dossier parent
-`.` - dossier courant
-`/` - dossier racine
-`code [file name / directory]` - ouvrir le fichier / dossier dans VSCode
-`mkdir [directory name]` - créer un dossier
-`touch [file name]` - créer un fichier
-`rm [file name]` - supprimer un fichier
-`cat [file name]` - afficher le contenu d'un fichier
-`open [file name]` - ouvrir le fichier avec l'application prévue par défaut
+- `ls` -  liste les fichiers du dossier courant
+- `ls -a`- liste les fichiers du dossier courant en affichant les fichiers cachés
+- `cd [directory]` - naviguer vers le dossier `..` - dossier parent
+- `.` - dossier courant
+- `/` - dossier racine
+- `code [file name / directory]` - ouvrir le fichier / dossier dans VSCode
+- `mkdir [directory name]` - créer un dossier
+- `touch [file name]` - créer un fichier
+- `rm [file name]` - supprimer un fichier
+- `cat [file name]` - afficher le contenu d'un fichier
+- `open [file name]` - ouvrir le fichier avec l'application prévue par défaut
  
 ## git
 
 Système de versioning de code.
 
-`git status` - connaître l'état de git
-`git add [fichier]` - ajouter un fichier au prochain commit
-`git add .` - ajouter l'ensemble des modifications au prochain commit
-`git commit -m "message"` - écrire un commit
-`git push` - envoyer le code vers le repository distant
-`git pull` - récupérer le code distant
+- `git status` - connaître l'état de git
+- `git add [fichier]` - ajouter un fichier au prochain commit
+- `git add .` - ajouter l'ensemble des modifications au prochain commit
+- `git commit -m "message"` - écrire un commit
+- `git push` - envoyer le code vers le repository distant
+- `git pull` - récupérer le code distant
 
 github.com - permet d'héberger des repository sur internet.
 
@@ -71,5 +70,5 @@ JSON - format de données utilisé pour structurer des données, notamment dans 
 
 ## Divers
 
-`elm make [file name]` - compiler un fichier Elm
-`python3 [file name]` - exécuter un script python
+- `elm make [file name]` - compiler un fichier Elm
+- `python3 [file name]` - exécuter un script python
