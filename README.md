@@ -74,6 +74,21 @@ Elm REPL permet d'exécuter du code Elm.
 - `import Main` : importe le module `Main`
 - `import Main exposing (hello)` : importe le module `Main` en exposant la fonction `hello`
 
+
+Exemple de programme
+```
+module Main exposing (hello)
+
+hello : String
+hello =
+    "Hello world!"
+
+sayHello : String -> String
+sayHello name =
+    "Hello " ++ name ++ "!"
+```
+- la fonction `hello` ne prend pas de paramètre et renvoie une valeur de type `String`
+
 ## Divers
 
 - `elm make [file name]` - compiler un fichier Elm
