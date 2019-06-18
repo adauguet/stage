@@ -90,6 +90,14 @@ helloName name =
 - la fonction `helloWorld` ne prend pas de paramètre et renvoie une valeur de type `String`
 - la fonction `helloName` prend un paramètre `name` de type `String` et renvoie une valeur de type `String`
 
+## Exercices
+
+Implémenter la fonction suivante :
+
+```
+computeKnightMovements : (Int, Int) -> List (Int, Int)
+```
+
 ## Divers
 
 - `elm make [file name]` - compiler un fichier Elm
