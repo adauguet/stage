@@ -68,16 +68,11 @@ Protocole de communication entre deux services. Chaque requête reçoit une rép
 
 JSON - format de données utilisé pour structurer des données, notamment dans le contenu des requêtes HTTP
 
-## Elm REPL
-
-Elm REPL permet d'exécuter du code Elm.
-- `import Main` : importe le module `Main`
-- `import Main exposing (hello)` : importe le module `Main` en exposant la fonction `hello`
-
+## Elm
 
 Exemple de programme
 ```
-module Main exposing (hello)
+module Main exposing (helloWorld, helloName)
 
 helloWorld : String
 helloWorld =
@@ -89,6 +84,13 @@ helloName name =
 ```
 - la fonction `helloWorld` ne prend pas de paramètre et renvoie une valeur de type `String`
 - la fonction `helloName` prend un paramètre `name` de type `String` et renvoie une valeur de type `String`
+
+### Elm REPL
+
+Elm REPL permet d'exécuter du code Elm. En reprenant le code précédent :
+- `import Main` : importe le module `Main`, on peut ensuite appeler la fonction `Main.helloWorld` ou `Main.helloName "Julien"`.
+- `import Main exposing (helloWorld, helloName)` : importe le module `Main` en exposant les fonctions `helloWorld` et `helloName`. On peut ensuite appeler la fonction `helloWorld` ou `helloName "Paul"`.
+
 
 ## Exercices
 
