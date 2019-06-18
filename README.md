@@ -87,9 +87,15 @@ helloName name =
 
 ### Elm REPL
 
+Pour ouvrir Elm REPL, deux possibilités :
+- entrer `elm repl` dans un terminal
+- utiliser la commande incluse dans VSCode : *View > Command Palette* puis chercher "Elm REPL"
+
 Elm REPL permet d'exécuter du code Elm. En reprenant le code précédent :
 - `import Main` : importe le module `Main`, on peut ensuite appeler la fonction `Main.helloWorld` ou `Main.helloName "Julien"`.
 - `import Main exposing (helloWorld, helloName)` : importe le module `Main` en exposant les fonctions `helloWorld` et `helloName`. On peut ensuite appeler la fonction `helloWorld` ou `helloName "Paul"`.
+
+- `:exit` : quitter Elm REPL
 
 
 ## Exercices
