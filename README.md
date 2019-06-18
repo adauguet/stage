@@ -85,6 +85,11 @@ helloName name =
 - la fonction `helloWorld` ne prend pas de paramètre et renvoie une valeur de type `String`
 - la fonction `helloName` prend un paramètre `name` de type `String` et renvoie une valeur de type `String`
 
+
+### Elm make
+
+- `elm make [fichier Elm]` : compile un fichier Elm
+
 ### Elm REPL
 
 Pour ouvrir Elm REPL, deux possibilités :
@@ -108,5 +113,16 @@ computeKnightMovements : (Int, Int) -> List (Int, Int)
 
 ## Divers
 
-- `elm make [file name]` - compiler un fichier Elm
 - `python3 [file name]` - exécuter un script python
+
+### npm
+
+NPM est un gestionnaire de packages disponible sous linux et macos.
+
+#### Installation
+
+npm est inclus dans l'installation de Node.js. Pour installer Node.js, suivre les instructions à l'adresse suivante : https://nodejs.org/en/
+
+#### Utilisation
+
+- `npm install -g elm` : install Elm de manière globale (pour tous les utilisateurs)
