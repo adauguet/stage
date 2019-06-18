@@ -2,7 +2,8 @@
 
 - `ls` -  liste les fichiers du dossier courant
 - `ls -a`- liste les fichiers du dossier courant en affichant les fichiers cachés
-- `cd [directory]` - naviguer vers le dossier `..` - dossier parent
+- `cd [directory]` - naviguer vers le dossier
+- `..` - dossier parent
 - `.` - dossier courant
 - `/` - dossier racine
 - `code [file name / directory]` - ouvrir le fichier / dossier dans VSCode
@@ -11,6 +12,7 @@
 - `rm [file name]` - supprimer un fichier
 - `cat [file name]` - afficher le contenu d'un fichier
 - `open [file name]` - ouvrir le fichier avec l'application prévue par défaut
+- le préfixe `sudo` permet d'exécuter des commandes en tant qu'administrateur
  
 ## git
 
@@ -144,11 +146,14 @@ computeKnightMovements : (Int, Int) -> List (Int, Int)
 
 **npm** (Node Package Manager) est le gestionnaire de package de Node.js. Il fournit des packages Javascript.
 
-**Node.js** est un environnement Javascript qui permet d'exécuter du Javascript en dehors d'un navigateur.
+**Node.js** est un environnement Javascript qui permet d'exécuter du Javascript en dehors d'un navigateur. Il est utilisé pour faire fonctionner npm.
 
 #### Installation
 
-npm est inclus dans l'installation de Node.js. Pour installer Node.js, suivre les instructions à l'adresse suivante : https://nodejs.org/en/
+Deux possibilités :
+
+- en utilisant l'installateur officiel de Node.js qui contient npm. Pour installer Node.js, suivre les instructions à l'adresse suivante : https://nodejs.org/en/
+- en utilisant un gestionnaire de package, par exemple `sudo apt-get install nodejs npm` sur Ubuntu
 
 #### Utilisation
 
