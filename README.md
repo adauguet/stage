@@ -68,6 +68,12 @@ Protocole de communication entre deux services. Chaque requête reçoit une rép
 
 JSON - format de données utilisé pour structurer des données, notamment dans le contenu des requêtes HTTP
 
+## Elm REPL
+
+Elm REPL permet d'exécuter du code Elm.
+- `import Main` : importe le module `Main`
+- `import Main exposing (hello)` : importe le module `Main` en exposant la fonction `hello`
+
 ## Divers
 
 - `elm make [file name]` - compiler un fichier Elm
