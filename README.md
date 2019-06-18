@@ -105,6 +105,14 @@ Elm REPL permet d'exécuter du code Elm. En reprenant le code précédent :
 
 ## Exercices
 
+Implémenter les fonctions suivantes :
+```
+add : Int -> Int -> Int
+```
+```
+multiply : Float -> Float -> Float
+```
+
 Implémenter la fonction suivante :
 
 ```
