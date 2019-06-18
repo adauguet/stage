@@ -136,9 +136,15 @@ computeKnightMovements : (Int, Int) -> List (Int, Int)
 
 - `python3 [file name]` - exécuter un script python
 
+### apt-get
+
+**apt-get** est un gestionnaire de package Linux, notamment pour Ubuntu.
+
 ### npm
 
-NPM est un gestionnaire de packages disponible sous linux et macos.
+**npm** (Node Package Manager) est le gestionnaire de package de Node.js. Il fournit des packages Javascript.
+
+**Node.js** est un environnement Javascript qui permet d'exécuter du Javascript en dehors d'un navigateur.
 
 #### Installation
 
@@ -146,4 +152,4 @@ npm est inclus dans l'installation de Node.js. Pour installer Node.js, suivre le
 
 #### Utilisation
 
-- `npm install -g elm` : install Elm de manière globale (pour tous les utilisateurs)
+- `npm install -g elm` : install Elm de manière globale (pour tous les utilisateurs) grâce à npm
