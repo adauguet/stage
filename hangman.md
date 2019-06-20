@@ -1,5 +1,7 @@
 # Hangman project
 
+## Contains
+
 Implement de following function:
 ```elm
 contains : String -> Char -> Bool
@@ -24,30 +26,29 @@ contains : List Letter -> Char -> Bool
 
 Implement a function that reveal the `Letter` if the input `Char` is correct.
 ```elm
-revealSingle : Char -> Letter -> Letter
+revealLetter : Char -> Letter -> Letter
 ```
 Using `List.map` and `revealSingle`, implement a function that reveal all letters corresponding to a given input `Char`.
 ```elm
-reveal : Char -> List Letter -> List Letter
+revealLetters : Char -> List Letter -> List Letter
 ```
 
 ## Counter
 
+Our program will use a counter to track the number of tries left. Implement a function that will decrement a counter if the input `Char` is not contained in the list of letters: 
 ```elm
-foo : Char -> List Letter -> Int -> Int
+updateCounter : Char -> List Letter -> Int -> Int
 ```
-Our futur program will contain a `Model` type that will hold the word to guess, and a counter reprensenting the number of tries left. Here is a possible implementation:
+
+## Model
+
+We will use a type `Model` to hold the letters to guess and the counter. Write a `Model` type with both properties.
 ```elm
 type alias Model =
-    { letters : List Letter
-    , counter : Int
+    { -- write properties here
     }
 ```
-Here is a syntax example of updating a `v0` of type `Vector` record:
+Using `reveal` and `updateCounter`, implement the function that will update the `Model` accordingly with a given input `Char`:
 ```elm
-{ v0 | x = v0.x + 1 }
-```
-Implement the function that will update the `Model` with a given input `Char`:
-```elm
-handle : Char -> Model -> Model
+updateModel : Char -> Model -> Model
 ```
