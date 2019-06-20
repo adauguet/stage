@@ -19,6 +19,9 @@ Change the `contains` function to fit the following signature:
 ```elm
 contains : List Letter -> Char -> Bool
 ```
+
+## Reveal letters
+
 Implement a function that reveal the `Letter` if the input `Char` is correct.
 ```elm
 revealSingle : Char -> Letter -> Letter
@@ -27,6 +30,8 @@ Using `List.map` and `revealSingle`, implement a function that reveal all letter
 ```elm
 reveal : Char -> List Letter -> List Letter
 ```
+
+## Counter
 
 ```elm
 foo : Char -> List Letter -> Int -> Int
