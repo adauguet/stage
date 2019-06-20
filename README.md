@@ -73,7 +73,7 @@ JSON - format de données utilisé pour structurer des données, notamment dans 
 ## Elm
 
 Exemple de programme
-```
+```elm
 module Main exposing (helloWorld, helloName)
 
 helloWorld : String
@@ -108,29 +108,29 @@ Elm REPL permet d'exécuter du code Elm. En reprenant le code précédent :
 ## Exercices
 
 Implémenter les fonctions suivantes :
-```
+```elm
 add : Int -> Int -> Int
 ```
-```
+```elm
 multiply : Float -> Float -> Float
 ```
 
 Dans le cas d'un polynôme de degré 2, implémenter la fonction suivante :
-```
+```elm
 discriminant : Float -> Float -> Float -> Float
 ```
 En utilisant la fonction `discriminant`, implémenter la fonction `nombreRacines` qui renvoie `0`, `1` ou `2`, le nombre de racines du polynôme de degré 2. Indice : il faut utiliser une condition `if ... then .. else`.
-```
+```elm
 nombreRacines : Float -> Float -> Float -> Int
 ```
 En modifiant la fonction précédente, implémenter la fonction `resolve` qui résoud les polynômes de degré 2. On utilise une `List` pour renvoyer la liste des racines. Exemple : `[a, b]`.
-```
+```elm
 resolve : Float -> Float -> Float -> List Float
 ```
 
 Implémenter la fonction suivante :
 
-```
+```elm
 computeKnightMovements : (Int, Int) -> List (Int, Int)
 ```
 
